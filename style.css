@@ -30,6 +30,15 @@ body {
   color: #2d4059;
   padding-top: 38px;
 }
+.benchmark-bg {
+  background-color: #2d4059;
+  position: absolute;
+  height: 40px;
+  width: 63%;
+  text-align: right;
+  color: #2d4059;
+  padding-top: 38px;
+}
 #card_bar_client {
   width: 0px;
   transition: width 1.8s ease-out;
