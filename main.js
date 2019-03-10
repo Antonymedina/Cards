@@ -141,7 +141,7 @@ function fExito() {
 
   card_bar_client.style.width = data_exito[2]*10 + "%";
   client_number.innerHTML = data_exito[2];
-  client_number_small.innerHTML = "= 1.2%";
+  client_number_small.innerHTML = "+ 1.2%";
 
   window.chart.data.datasets[1].data = data_exito;
   window.chart.update();
