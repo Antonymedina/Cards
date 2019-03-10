@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto';
+}
+.card-header {
+  padding: 0 !important;
+  position: relative;
+  height: 42px;
+}
+.client {
+  background-color: #7ac7c4;
+  position: absolute;
+  height: 40px;
+  font-size: 13px;
+  line-height: 12px;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.client-number {
+  font-weight: bold;
+  font-size: 18px;
+  color: #444444;
+}
+.benchmark {
+  border-right: 2px solid #2d4059;
+  position: absolute;
+  height: 56px;
+  width: 63%;
+  text-align: right;
+  color: #2d4059;
+  padding-top: 38px;
+}
+#card_bar_client {
+  width: 0px;
+  transition: width 1.8s ease-out;
+}
+
+#client_number_small {
+  font-size:10px;
+}
